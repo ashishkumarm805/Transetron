@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Transetron</string>
+    <string name="buy_ticket_s">Buy Ticket(s)</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
