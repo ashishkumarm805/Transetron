@@ -121,13 +121,11 @@ public class StartActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            if (user != null) {
-                                String UserName = user.getDisplayName();
-                                Intent gIntent = new Intent(StartActivity.this,MainActivity.class);
-                                gIntent.putExtra(UserName,"User");
-                                startActivity(gIntent);
 
+                            if (user != null) {
+                                update(user);
                             }
+
 
                         } else {
                             // If sign in fails, display a message to the user.

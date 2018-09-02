@@ -23,9 +23,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mAuth = FirebaseAuth.getInstance();
+        Intent m = getIntent();
+        String username = m.getStringExtra("Name");
         BuyButton = findViewById(R.id.buy_tickets_btn_main);
         nameView = findViewById(R.id.name_main_text);
-        nameView.setText(getIntent().getStringExtra("User"));
+        nameView.setText(String.format("Welcome, %s! ", username));
         BuyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

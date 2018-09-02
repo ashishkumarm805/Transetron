@@ -37,8 +37,8 @@
 
         <activity android:name=".StartActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".Register"></activity>
         <activity android:name=".RegisterActivity" />
+        <activity android:name=".MapActivity"></activity>
     </application>
 
 </manifest>
