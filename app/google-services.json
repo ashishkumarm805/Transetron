@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "857639988589",
+    "firebase_url": "https://transetron2.firebaseio.com",
+    "project_id": "transetron2",
+    "storage_bucket": "transetron2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857639988589:android:d308af5a347461aa",
+        "android_client_info": {
+          "package_name": "com.core.devhard.transetron"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857639988589-2de8o5k74pse2g3n6uoag4ts6v6mbofb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.core.devhard.transetron",
+            "certificate_hash": "3244b72ec23913e3791ec3dda9779b045dfaa5cf"
+          }
+        },
+        {
+          "client_id": "857639988589-vpm3prndnh8nebnjstso042c32nsmfrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN2u0dH5Rh4ecSy1HJ8NO3b4UUkDRYl4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857639988589-vpm3prndnh8nebnjstso042c32nsmfrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
