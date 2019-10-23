@@ -4,7 +4,8 @@ A Step Towards Digital India.
 
 ## Built Using:
 
-* Arndroid
+* Android
 * Java
 * Firebase
 * QR_Code Generator
+* Map
